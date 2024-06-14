@@ -1,34 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Photos</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Projects - Carter Tollman</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1f1f1f; /* Dark background */
+            color: #ffffff; /* White text */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333333; /* Dark gray header */
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #444444; /* Slightly lighter gray */
+            text-align: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #ffffff; /* White links */
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .post {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #666666; /* Darker gray border */
+            padding-bottom: 1rem;
+        }
+        .post:last-child {
+            border-bottom: none; /* Remove border from last post */
+        }
+        .post h2 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+        .post p {
+            color: #cccccc; /* Light gray text */
+        }
+        footer {
+            background-color: #333333;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #cccccc; /* Light gray text */
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
-        <h1>My Photos</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="photos.html">Photos</a></li>
-            </ul>
-        </nav>
+        <h1>Carter Tollman</h1>
     </header>
-    <main>
-        <section id="photos">
-            <h2>Photos</h2>
-            <div class="photo-gallery">
-                <!--<img src="path_to_photo.jpg" alt="Description">-->
-                <!-- Repeat for more photos -->
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <div class="container">
+
+        <section>
+            <h2>Projects</h2>
+            <div class="post">
+                <h3>Project Title</h3>
+                <p>Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Date: June 2024</p>
             </div>
+            <!-- Add more posts as needed -->
         </section>
-    </main>
+
+    </div>
+
     <footer>
-        <p>&copy; 2024 Carter Tollman</p>
+        <p>&copy; 2024 Carter Tollman. All rights reserved.</p>
     </footer>
-    <script src="JS/script.js"></script>
+
 </body>
+
 </html>
