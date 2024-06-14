@@ -16,7 +16,7 @@ body {
     max-width: 800px;
     margin: auto;
 }
-.bio, .interests {
+.interests {
     background-color: white;
     padding: 20px;
     margin: 20px 0;
