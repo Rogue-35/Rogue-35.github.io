@@ -1,1 +1,5 @@
-console.log("Carter's personal webpage is loaded.");
+// script.js
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Add your JavaScript here
+});
